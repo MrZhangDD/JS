@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS能够直接写在html输出
+<body>流中</title>
+</head>
+    JS能够直接写在html输出流中：
+    <script>
+        document.write("<h1>This is a Heading</h1>");
+        document.write("<h2>This is a page</h2>");
+        document.write("<p>good</p>");
+    </script>
+    <p>
+        这是一个测试用的js
+    </p>
+    <script>
+        function f2(){
+            document.write("糟糕，页面被全覆盖了");
+        }
+    </script>
+    <button type="button" onclick="f2()">
+        慎点
+    </button>
+</body>
+</html>

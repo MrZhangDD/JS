@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js能改变html内容</title>
+</head>
+<body>
+    <h1>js第一阶段</h1>
+    <p id="demo">
+        js 能改变html内容
+    </p>
+<script>
+    function f() {
+        x=document.getElementById("demo");
+        x.innerHTML="hello js";
+    }
+</script>
+    <button type="button" onclick="f()">
+        点击这里
+    </button>
+
+</body>
+</html>

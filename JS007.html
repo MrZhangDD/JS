@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js对象</title>
+</head>
+<body>
+    <script>
+        var person={firstname:"Bill",lastname:"jack",id:5566};
+        document.write(person.firstname+"<br/>");
+        document.write(person["firstname"]+"<br/>")
+    </script>
+    <script>
+        person=new Object();
+        person.firstname="bill";
+        person.lastname="jack";
+        person.age=24;
+        person.eyecolor="blue";
+        document.write(person.firstname+"/"+person.lastname+"/"+person.age)
+    </script>
+</body>
+</html>
